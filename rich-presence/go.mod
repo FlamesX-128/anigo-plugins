@@ -3,7 +3,7 @@ module github.com/FlamesX-128/anigo-packages/rich-presence
 go 1.18
 
 require (
-	github.com/FlamesX-128/anigo-plugins/types v0.0.0-20220703045821-fc9b5de36a61
+	github.com/FlamesX-128/anigo-plugins/types v0.0.0-20220703054230-83cc4cd6957b
 	github.com/hugolgst/rich-go v0.0.0-20210925091458-d59fb695d9c0
 )
 

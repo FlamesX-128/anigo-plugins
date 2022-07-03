@@ -48,10 +48,10 @@ func Handler(a *types.Anigo) {
 		}
 
 		err := client.SetActivity(client.Activity{
-			State:      "Watching episode " + string(a.Episode),
-			Details:    a.Anime,
+			State:      "Watching episode " + string(rune(a.Episode)),
+			Details:    a.Name,
 			LargeImage: a.Image,
-			LargeText:  a.Anime,
+			LargeText:  a.Name,
 			Timestamps: &client.Timestamps{
 				Start: &now,
 			},

@@ -42,8 +42,8 @@ type Plugin[T PluginType] struct {
 //
 
 type Anime struct {
-	Image, Name, Url string
-	Episode          int
+	Anime, Image, Url string
+	Episode           int
 }
 
 //

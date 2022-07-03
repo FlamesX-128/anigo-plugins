@@ -3,7 +3,8 @@ package types
 //
 
 type Anigo struct {
-	Anime, Episode, Image, Url string
+	Anime, Image, Url string
+	Episode           int
 
 	UseService   func(string, string, ...string) (interface{}, bool)
 	GetDirectUrl func(string) (string, bool)
@@ -42,6 +43,7 @@ type Plugin[T PluginType] struct {
 
 type Anime struct {
 	Image, Name, Url string
+	Episode          int
 }
 
 //

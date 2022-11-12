@@ -44,7 +44,7 @@
 
 - Go 1.19
 
-### How to
+### How do i create my plugin?
 
 ```sh
 # Create a gomodule

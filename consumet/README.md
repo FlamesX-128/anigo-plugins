@@ -58,6 +58,7 @@ Please make sure to update tests as appropriate.
 
 - [Consumet](https://github.com/consumet/api.consumet.org)
 - [Shields.io](https://shields.io/)
+- [Image source](https://www.pixiv.net/en/artworks/85373804)
 
 ## License
 

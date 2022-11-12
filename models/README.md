@@ -57,7 +57,7 @@ go get github.com/FlamesX-128/anigo-plugins/models
 ```
 
 ```go
-// Create de plugin.
+// Create the plugin.
 // Currently only plugins from providers like gogoanime.
 package main
 

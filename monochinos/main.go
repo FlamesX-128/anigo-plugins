@@ -4,7 +4,6 @@ import (
 	"log"
 
 	"github.com/FlamesX-128/anigo-plugins/monochinos/models/monoschinos"
-	"github.com/FlamesX-128/anigo/models"
 	"github.com/gocolly/colly"
 )
 
@@ -56,10 +55,8 @@ func (p PackageModel) Watch(id string) []models.Source {
 	return data
 }
 
-func (p PackageModel) Name() string {
-	return "monochinos"
-}
-
-var Packages interface{} = []interface{}{
-	PackageModel{},
+var Plugin = models.Plugin{
+	Providers: map[string]models.Provider{
+		"monochinos": PackageModel{},
+	},
 }

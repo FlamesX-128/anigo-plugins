@@ -81,8 +81,4 @@ func (p PackageModel) Watch(id string) []models.Source {
 	return source
 }
 
-func (p PackageModel) Name() string {
-	return "gogoanime"
-}
-
-var Package interface{} = PackageModel{}
+var Package models.Provider = PackageModel{}

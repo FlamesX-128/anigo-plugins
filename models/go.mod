@@ -1,3 +1,3 @@
-module github.com/FlamesX-128/anigo-plugins/plugin-models
+module github.com/FlamesX-128/anigo-plugins/models
 
 go 1.19

@@ -3,7 +3,7 @@ package main
 import (
 	"log"
 
-	models "github.com/FlamesX-128/anigo-plugins/anigo-models"
+	"github.com/FlamesX-128/anigo-plugins/models"
 	"github.com/FlamesX-128/anigo-plugins/monochinos/models/monoschinos"
 	"github.com/gocolly/colly"
 )

@@ -7,7 +7,7 @@ import (
 	"net/http"
 
 	"github.com/FlamesX-128/anigo-plugins/consumet/models/gogoanime"
-	"github.com/FlamesX-128/anigo/models"
+	"github.com/FlamesX-128/anigo-plugins/models"
 )
 
 type PackageModel struct{}

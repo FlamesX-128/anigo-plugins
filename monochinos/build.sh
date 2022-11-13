@@ -1,6 +1,11 @@
 #!/usr/bin/sh
 
-VERSION='1.0.0'
 NAME='monochinos'
 
-go build -buildmode=plugin -o "${NAME}@${VERSION}.so" main.go
+GOARCH='amd64'
+GOOS='linux'
+
+VERSION='1.0.1'
+MODEL='1.0.0'
+
+go build -buildmode=plugin -o dist/"$NAME@${VERSION}-v$MODEL-$GOOS-$GOARCH" main.go

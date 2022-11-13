@@ -1,3 +1,11 @@
 #!/usr/bin/sh
 
-go build -buildmode=plugin -o dist/linux-amd64/consumet.so main.go
+NAME='consumet'
+
+GOARCH='amd64'
+GOOS='linux'
+
+VERSION='1.0.1'
+MODEL='1.0.0'
+
+go build -buildmode=plugin -o dist/"$NAME@${VERSION}-v$MODEL-$GOOS-$GOARCH" main.go

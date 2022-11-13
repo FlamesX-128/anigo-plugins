@@ -7,6 +7,6 @@ import (
 
 var Plugin = models.Plugin{
 	Providers: map[string]models.Provider{
-		"[API] [Direct] gogoanime": gogoanime.Package,
+		"[API] [Direct] GoGoAnime": gogoanime.Package,
 	},
 }

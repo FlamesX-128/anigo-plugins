@@ -71,6 +71,6 @@ func (p PackageModel) Watch(id string) []models.Source {
 
 var Plugin = models.Plugin{
 	Providers: map[string]models.Provider{
-		"monochinos": PackageModel{},
+		"[Scrape] Monochinos2": PackageModel{},
 	},
 }

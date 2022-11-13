@@ -46,7 +46,7 @@ Download some the binary from [releases](https://github.com/FlamesX-128/anigo-pl
 
 ## Plugin directory
 
-Anigo will look for the `anigo-plugins` folder in the current directory from where it is called.
+Anigo will look for the `anigo/plugins` folder in the current directory from where it is called.
 
 ## Contributing
 
